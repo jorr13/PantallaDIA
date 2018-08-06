@@ -1,0 +1,110 @@
+html, body{
+    background-color: #F2F3F3;
+
+}
+.contenedor-titulo-nosotros{
+    background-image: url('ciudadfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+}
+.contenedor-fondo-circular{
+    background-color: rgba(33, 188, 208, 0.4);
+}
+.contenedor-title-nosotros{
+    border: 80px solid rgba(33, 188, 208, 0.6);
+    text-align: center;
+    width: 155vh;
+    height: 155vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 80%;
+    left: 50%;
+    transform: translate(0%,-31%);
+}
+
+.contenedor-title-nosotros h2{
+    top: 44%;
+    position: relative;
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contenedor-img-parte-uno{
+    width: 75%;
+    height: 75%;
+    padding-top: 5%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.contenedor-texto-parte-uno{
+    padding: 3%;
+    width: 90%;
+    padding-left: 25vh;
+    text-align: justify;
+}
+.contenedor-texto-parte-uno h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(33, 188, 208);
+
+}
+.contenedor-texto-parte-uno p{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.parte-ventajas{
+    text-align: justify;
+    padding-left: 25vh;
+    background-color: white;
+    
+}
+.parte-ventajas h2{
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(33, 188, 208);
+}
+.parte-ventajas p{
+    width: 86%;
+    margin-top: 5%;
+}
+
+
+.tercera-parte-nosotros{
+    text-align: center
+}
+.tercera-parte-nosotros h2{
+    padding-top: 5%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(33, 188, 208);
+}
+.tercera-parte-nosotros p{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.contenedor-img-circular{
+    overflow: hidden;
+    width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+    border-radius: 190px;
+    border: 25px solid rgba(33, 188, 208, 0.6);
+}
+.contenedor-img-circular img{
+    width: auto;
+    height: 100%;
+    
+}
